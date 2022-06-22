@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+html {
+    font-size: 10px;
+    background: url('Project-img/image1-2-1024x683.webp') bottom center;
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 5vh;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+
+h1{
+    font-size: 2cm;
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+    padding: 8px;
+    margin-top: 50px;
+    color: rgb(202, 157, 22);
+    text-shadow: 2px 2px #efeaea;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    width: 20%;
+  }
+  img.center{
+    filter: brightness(0) invert(1);
+
+  }
